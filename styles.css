@@ -12,6 +12,11 @@ padding-left: 70;
 padding-right: 70;
 
 margin-top: auto;
+margin-bottom: 80px;
+
+border-color: rgba(91, 0, 126, 0.532);
+border-style: solid;
+border-width: thick;
 }
 
 .puppy-fact-box {
@@ -91,4 +96,58 @@ height: 300px;
 border-color: rgba(154, 0, 214, 0.541);
 border-style: solid;
 border-width: thick;
+}
+
+.contact-box {
+
+border-color: rgba(154, 0, 214, 0.541);
+border-style: solid;
+border-width: thick;
+
+color: rgb(107, 6, 107);
+background-color:rgb(255, 255, 255);
+
+margin-top: 0px;
+margin-bottom: 0px;
+margin-left: 25%;
+margin-right: 25%;
+}
+
+.contact-header {
+
+    font-weight: bold;
+    font-size: larger;
+
+    color: black;
+
+    padding-top: 5px;
+
+    text-align: center;
+}
+
+.contact-info {
+    
+    font-size: large;
+
+    color: rgb(184, 33, 207);
+
+    padding-left: 280px;
+
+    justify-content: space-evenly;
+
+    padding: 5px;
+
+    text-align: center;
+
+}
+
+.link-style {
+    text-decoration:none;
+  
+}
+
+.spacing-style {
+
+    justify-content: flex-start;
+    margin-bottom: 50%;
 }
